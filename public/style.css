@@ -1,0 +1,82 @@
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,input,textarea{padding:0;margin:0;}
+body {font-family:Arial,Helvetica,"Arial Unicode MS",sans-serif; background-color:#eaf3f5; color:#252B30; font-size:16px; line-height:1.2;}
+.wrapper {width:95%; max-width:1160px; margin:auto;}
+.name {font-size:52px; line-height:40px; margin-top:4px; margin-bottom:10px; text-decoration:none; font-weight:bold; color:maroon;}
+@font-face {
+	font-family: 'MTCORSVA';
+	src: url('fonts/MTCORSVA.eot');
+	src: local('MTCORSVA'), url('fonts/MTCORSVA.woff') format('woff'), url('fonts/MTCORSVA.ttf') format('truetype');
+}
+.mtcorsiva {font-family: 'MTCORSVA' !important;}
+
+.nav {font-size:18px;}
+.cat {background-color:lightgrey; padding:6px 15px;}
+.main {background-color:#fff; padding:15px;}
+.clear {clear:both;}
+.table {margin-top:10px;}
+.row {clear:both; background-color:#fff; padding:6px 15px; margin-bottom:10px;}
+
+.mn1, .mn2 {display:block; float:left;}
+.tb1, .tb2 {display:block; float:left;}
+
+
+h1,h2,h3 {line-height:1;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+p {margin-bottom:3px;}
+
+.small {font-size:15px}
+.pad1 {padding:10px 12px}
+.bkg1 {background-color:#FFF}
+.brd1 {border:thin solid #758799;}
+.mrgt {margin-top:12px}
+.w100 {width:100%;}
+.left {float:left;}
+.right {float:right;}
+
+.btn1, .btn3 {
+    border-radius:6px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    background-color:#008000;
+}
+.btn1:hover, .btn3:hover {border:none; background:#32B232;} /*32B232*/
+.btn1 {margin-top:7px; padding:7px 20px; font-size:17px;}
+.btn3 {width:14%; font-size:17px; line-height:17px; padding:10px 0; float:right;}
+
+h1 {font-family:Open Sans Condensed; font-size:34px; line-height:34px; padding-bottom:10px;}
+.shade {padding-left:2px;}
+
+.note1 {font-size:12px; line-height:12px; text-align:justify;}
+
+input, textarea {padding:2px; font-size:1.1em; background-color:#ffffe0; width:98%;}
+input {margin-bottom:5px;}
+
+
+.nm1, .mn2 {width:100%;}
+.tb1, .tb2 {width:100%;}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .mn1 {width:40%;}
+    .mn2 {width:60%;}
+    .tb1 {width:30%;}
+    .tb2 {width:70%;}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}
